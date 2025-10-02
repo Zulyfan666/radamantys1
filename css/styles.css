@@ -9,7 +9,7 @@ header {
     padding: 0.5rem;
     border: 5px solid black;
     justify-content: space-between;
-    background-color: cornflowerblue;/*rgba(9, 54, 65, 0.842);*/
+    /*background-color: cornflowerblue;]//*rgba(9, 54, 65, 0.842);*/
     position: sticky;
 }
 .contenedor-header {
@@ -33,10 +33,10 @@ header {
     justify-content: space-between;
 
 }
-.lista {
+/*.lista {
     width: 50%;
 }
-.lista ul {
+/*.lista ul {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
@@ -47,6 +47,14 @@ header {
     text-decoration:none;
     color: rgba(9, 54, 65, 0.842);
     font-weight: bold;
+}*/
+.lista{
+    text-decoration:none;
+    color: rgba(9, 54, 65, 0.842);
+}
+.boton{
+    color: rgba(9, 54, 65, 0.842);
+    border-color: rgba(9, 54, 65, 0.842);
 }
 .pages {
     padding: 0.5rem;
