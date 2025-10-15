@@ -1,0 +1,77 @@
+@use "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: variables.$padding;
+  border: 5px solid variables.$color-borde;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.contenedor-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: space-between;
+}
+
+.logo, .buscador, .lista, .boton {
+  color: variables.$color-4;
+  text-align: center;
+  align-items: center;
+}
+
+.pages {
+  padding: variables.$padding;
+  border: 5px solid variables.$color-borde;
+  background-color: variables.$color-1;
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    background-color: variables.$color-1;
+  }
+}
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch; 
+    justify-content: space-between;
+
+    article {
+    border: 2px solid variables.$color-5;
+    margin: 10px 0;
+    padding: 10px;
+    width: 30%;
+    background-color: variables.$color-1;
+        
+        h3 {
+        text-align: justify;
+        font-weight: 200;
+        }
+        img {
+        margin-bottom: 0.5rem;
+        width: 100%;
+        object-fit: cover;
+        }
+        p {
+        text-align: justify;
+        font-weight: 150;
+        }
+    }
+}
+
+footer {
+  padding: variables.$padding;
+  border: 5px solid variables.$color-borde;
+  background-color: variables.$color-3;
+  color: white;
+  text-align: center;
+}
