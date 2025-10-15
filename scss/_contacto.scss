@@ -1,0 +1,10 @@
+@use "variables";
+
+a {
+    color: variables.$color-4;
+    text-decoration: none; 
+}
+
+ul {
+  list-style: none;       // Elimina las viñetas
+}

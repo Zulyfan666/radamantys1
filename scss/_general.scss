@@ -68,16 +68,3 @@ header {
     }
 }
 
-.footer a {
-  color: variables.$color-5; // Cambia al color que prefieras
-  text-decoration: none; // Quita el subrayado
-
-  &:hover {
-    text-decoration: underline; // Opcional: subrayado al pasar el mouse
-  }
-}
-
-.footer ul {
-  list-style: none; // Quita las viñetas
-  padding-left: 0;  // Elimina el espacio izquierdo
-}

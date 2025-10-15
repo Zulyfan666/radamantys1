@@ -63,17 +63,13 @@ header {
   font-weight: 150;
 }
 
-.footer a {
-  color: #011c1d;
+a {
+  color: #004445;
   text-decoration: none;
 }
-.footer a:hover {
-  text-decoration: underline;
-}
 
-.footer ul {
+ul {
   list-style: none;
-  padding-left: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
