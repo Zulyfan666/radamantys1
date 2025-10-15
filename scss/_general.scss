@@ -68,10 +68,16 @@ header {
     }
 }
 
-footer {
-  padding: variables.$padding;
-  border: 5px solid variables.$color-borde;
-  background-color: variables.$color-3;
-  color: white;
-  text-align: center;
+.footer a {
+  color: variables.$color-5; // Cambia al color que prefieras
+  text-decoration: none; // Quita el subrayado
+
+  &:hover {
+    text-decoration: underline; // Opcional: subrayado al pasar el mouse
+  }
+}
+
+.footer ul {
+  list-style: none; // Quita las viñetas
+  padding-left: 0;  // Elimina el espacio izquierdo
 }
