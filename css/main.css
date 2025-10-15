@@ -63,6 +63,13 @@ header {
   font-weight: 150;
 }
 
+.footer {
+  background: #4c798c;
+  background: radial-gradient(circle, rgb(76, 121, 140) 0%, rgb(57, 129, 102) 13%, rgb(132, 219, 168) 34%, rgb(162, 219, 165) 65%, rgb(161, 207, 149) 100%);
+  color: white;
+  padding: 2rem 1rem;
+}
+
 a {
   color: #004445;
   text-decoration: none;
@@ -70,6 +77,14 @@ a {
 
 ul {
   list-style: none;
+}
+
+.icon_girar img {
+  transition: transform 0.6s ease-in-out;
+}
+
+.icon_girar:hover img {
+  transform: rotate(360deg);
 }
 
 /*# sourceMappingURL=main.css.map */

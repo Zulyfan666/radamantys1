@@ -33,21 +33,7 @@ header {
     justify-content: space-between;
 
 }
-/*.lista {
-    width: 50%;
-}
-/*.lista ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center; 
-    justify-content: space-between;
-}
-.lista ul li a {
-    text-decoration:none;
-    color: rgba(9, 54, 65, 0.842);
-    font-weight: bold;
-}*/
+
 .lista{
     text-decoration:none;
     color: rgba(9, 54, 65, 0.842);
