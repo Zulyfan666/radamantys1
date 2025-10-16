@@ -17,3 +17,41 @@ ul {
 .icon_girar:hover img {
   transform: rotate(360deg);
 }
+
+.hero {
+  background-image: url('../assets/portada2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: variables.$color-5;
+  display: flex;
+  gap: 0.2rem;
+
+  span {
+    animation: wave 1.2s ease-in-out infinite;
+  }
+
+  // Delay escalonado
+  span:nth-child(1) { animation-delay: 0s; }
+  span:nth-child(2) { animation-delay: 0.1s; }
+  // ...continúa para cada letra
+
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
